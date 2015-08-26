@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Page Layout / Positioning</title>
+    <style media="screen">
+      * {
+        box-sizing: border-box;
+      }
+      #container {
+        max-width: 960px;
+        margin: 0 auto;
+        position: relative;
+      }
+      #header {
+        /*background-color: salmon;*/
+        /*position: fixed;
+        top: 0;
+        left: 0;*/
+      }
+      #nav {
+        background-color: aqua;
+      }
+      #content {
+        background-color: teal;
+        width: 75%;
+        float: left;
+      }
+      #brand img {
+        display: block;
+        margin: 0 auto;
+        width: 30%;
+      }
+    #nav  ul {
+        list-style: none;
+        text-align: center;
+      }
+    #nav  li {
+        display: inline;
+        margin-right: 10px;
+        padding: 2px;
+      }
+    #nav a {
+        text-decoration: none;
+        font-size: 150%;
+      }
+      #sidebar {
+        background-color: grey;
+        width: 25%;
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="brand">
+          <img src="https://upload.wikimedia.org/wikipedia/en/4/47/Riot_Games_logo.png" alt="" />
+        </div>
+        <div id="nav">
+          <ul>
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>About</li></a>
+            <a href="#"><li>Contact</li></a>
+          </ul>
+        </div>
+      </div>
+      <div id="content">
+        <p>Cronut wolf synth forage drinking vinegar beard, keytar church-key small batch +1 occupy. Keytar umami artisan, Neutra normcore American Apparel Helvetica swag viral heirloom cronut McSweeney's retro bespoke. Meh church-key butcher Kickstarter, bespoke Marfa before they sold out High Life authentic. Carles direct trade sartorial health goth hoodie, Williamsburg 90's Blue Bottle. Four loko gastropub irony, blog High Life yr tattooed hella migas messenger bag drinking vinegar. Cronut keffiyeh bitters, swag mlkshk butcher quinoa 8-bit gluten-free mustache actually four dollar toast Williamsburg fap street art. Whatever mlkshk selfies tote bag brunch forage.</p>
+
+        <p>8-bit pour-over master cleanse next level, four loko Portland Blue Bottle farm-to-table flannel plaid polaroid craft beer stumptown cold-pressed mumblecore. Authentic freegan pour-over chillwave, cornhole Pinterest meh iPhone squid DIY four loko. Marfa literally next level irony, twee 3 wolf moon leggings. Farm-to-table 3 wolf moon swag, kitsch Truffaut fashion axe messenger bag kale chips. Kale chips cornhole hashtag, cred four loko banh mi beard bicycle rights fap stumptown. Messenger bag actually raw denim mlkshk, Brooklyn meggings brunch four dollar toast banjo Godard Williamsburg church-key Neutra High Life American Apparel. Blue Bottle Kickstarter XOXO biodiesel Pitchfork art party.</p>
+
+        <p>Quinoa authentic asymmetrical, migas church-key mixtape selfies iPhone sustainable plaid Thundercats Wes Anderson roof party cardigan. Vegan 90's fixie, 8-bit forage Banksy Godard. Quinoa paleo next level 3 wolf moon literally. Viral VHS four dollar toast, lo-fi kogi messenger bag locavore typewriter next level 3 wolf moon direct trade. You probably haven't heard of them tofu tote bag, pork belly Echo Park mixtape farm-to-table gluten-free. Godard salvia freegan mumblecore Banksy, organic locavore crucifix beard +1 trust fund. Raw denim church-key readymade retro disrupt.</p>
+
+        <p>Brunch Schlitz skateboard single-origin coffee, taxidermy Wes Anderson chillwave bespoke mixtape irony scenester slow-carb. Blue Bottle pour-over bitters biodiesel Carles freegan PBR&B. PBR&B Portland Helvetica listicle next level, meh American Apparel umami four loko 90's XOXO 3 wolf moon. Kale chips mixtape 3 wolf moon sriracha. Bitters vinyl stumptown, 90's four dollar toast keytar kitsch Wes Anderson. Cred ennui art party, Thundercats chia fashion axe 3 wolf moon taxidermy actually 8-bit. Neutra kitsch listicle bitters jean shorts cardigan.</p>
+
+      </div>
+      <div id="sidebar">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
+
+</html>
