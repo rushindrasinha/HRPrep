@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 15px;
+  padding: 20px;
+  border: solid 1px white;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 200%;
+}
+
+.content {
+  text-align: center;
+  margin: 0 auto;
+  width: 720px;
+}
+
+p {
+  border: 1px solid white;
+  margin: 10px;
+  padding: 10px;
+}
