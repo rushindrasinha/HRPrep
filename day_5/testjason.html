@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<h1>Lets make lunch!</h1>
+		<script>
+		console.log("Lets make lunch!")
+		var user_input = prompt("Where should we start? Pour yourself a drink or start making a sandwich?")
+
+				if (user_input === "drink") {
+					console.log("Lets make a drink then!");
+          document.querySelector('h1').textContent = "Lets make a drink then!";
+
+				}
+				else if (user_input === "sandwich") {
+					console.log("Lets make a sandwich!");
+          document.querySelector('h1').textContent = "Lets make a sandwich!";
+
+					}
+        else {
+          console.log("Come on pick one");
+          document.querySelector('h1').textContent = "Come on pick one!";
+          
+        }
+		</script>
+	</body>
+</html>
